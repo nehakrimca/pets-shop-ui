@@ -1,0 +1,52 @@
+.main-container {
+  max-width: 1200px;
+  background-color: rgb(220, 227, 240);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+}
+.main-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-header h3 {
+  color: rgb(245, 121, 179);
+}
+.main-photo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-box {
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.main-photo img {
+  height: 350px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.footer {
+  max-width: 1200px;
+  background-color: rgb(10, 6, 6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  color: #fff;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.footer a {
+  color: rgb(236, 236, 232);
+}
+
+.footer a:hover {
+  color: rgb(100, 100, 177);
+}
